@@ -21,6 +21,7 @@
 		77E32B282B5D39D500469EF7 /* FivethViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E32B272B5D39D500469EF7 /* FivethViewController.swift */; };
 		77E32B2A2B5DABD700469EF7 /* DetailFivethViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E32B292B5DABD600469EF7 /* DetailFivethViewController.swift */; };
 		77E32B2C2B62EE0E00469EF7 /* SixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E32B2B2B62EE0E00469EF7 /* SixViewController.swift */; };
+		77E32B2E2B64472800469EF7 /* DetailSixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E32B2D2B64472800469EF7 /* DetailSixViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		77E32B272B5D39D500469EF7 /* FivethViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FivethViewController.swift; sourceTree = "<group>"; };
 		77E32B292B5DABD600469EF7 /* DetailFivethViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFivethViewController.swift; sourceTree = "<group>"; };
 		77E32B2B2B62EE0E00469EF7 /* SixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixViewController.swift; sourceTree = "<group>"; };
+		77E32B2D2B64472800469EF7 /* DetailSixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSixViewController.swift; sourceTree = "<group>"; };
 		9039BD54646A261B3E2D8BBC /* Pods_RxSwiftTutorialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftTutorialApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -98,6 +100,7 @@
 				77E32B172B58553B00469EF7 /* Info.plist */,
 				77E32B1F2B58593900469EF7 /* ProductModel.swift */,
 				77E32B1D2B5858CF00469EF7 /* ProductViewModel.swift */,
+				77E32B2D2B64472800469EF7 /* DetailSixViewController.swift */,
 				77E32B2B2B62EE0E00469EF7 /* SixViewController.swift */,
 			);
 			path = RxSwiftTutorialApp;
@@ -228,6 +231,7 @@
 			files = (
 				77E32B2A2B5DABD700469EF7 /* DetailFivethViewController.swift in Sources */,
 				77E32B222B586CD900469EF7 /* SecondViewController.swift in Sources */,
+				77E32B2E2B64472800469EF7 /* DetailSixViewController.swift in Sources */,
 				77E32B0E2B58551700469EF7 /* ViewController.swift in Sources */,
 				77E32B0A2B58551700469EF7 /* AppDelegate.swift in Sources */,
 				77E32B2C2B62EE0E00469EF7 /* SixViewController.swift in Sources */,
