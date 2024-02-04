@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		39A7187DE6A45F258546A8BB /* Pods_RxSwiftTutorialApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9039BD54646A261B3E2D8BBC /* Pods_RxSwiftTutorialApp.framework */; };
+		773214DA2B6C1A12000BE1C3 /* ParseAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773214D92B6C1A12000BE1C3 /* ParseAPIViewController.swift */; };
+		77D651002B6E46B700660C67 /* ParseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D650FF2B6E46B700660C67 /* ParseDetailViewController.swift */; };
+		77D651022B6E8E2A00660C67 /* TestParseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D651012B6E8E2A00660C67 /* TestParseViewController.swift */; };
+		77D651042B6FCDF400660C67 /* SecondParsingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D651032B6FCDF400660C67 /* SecondParsingViewController.swift */; };
+		77D651072B70198B00660C67 /* CryptoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D651062B70198A00660C67 /* CryptoDetailViewController.swift */; };
 		77E32B0A2B58551700469EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E32B092B58551700469EF7 /* AppDelegate.swift */; };
 		77E32B0C2B58551700469EF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E32B0B2B58551700469EF7 /* SceneDelegate.swift */; };
 		77E32B0E2B58551700469EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E32B0D2B58551700469EF7 /* ViewController.swift */; };
@@ -27,6 +32,11 @@
 /* Begin PBXFileReference section */
 		372B9D53FB540E970CB144C4 /* Pods-RxSwiftTutorialApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftTutorialApp.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftTutorialApp/Pods-RxSwiftTutorialApp.debug.xcconfig"; sourceTree = "<group>"; };
 		6F94E52D9CC0F80A9E7ECAE9 /* Pods-RxSwiftTutorialApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftTutorialApp.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftTutorialApp/Pods-RxSwiftTutorialApp.release.xcconfig"; sourceTree = "<group>"; };
+		773214D92B6C1A12000BE1C3 /* ParseAPIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseAPIViewController.swift; sourceTree = "<group>"; };
+		77D650FF2B6E46B700660C67 /* ParseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseDetailViewController.swift; sourceTree = "<group>"; };
+		77D651012B6E8E2A00660C67 /* TestParseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestParseViewController.swift; sourceTree = "<group>"; };
+		77D651032B6FCDF400660C67 /* SecondParsingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondParsingViewController.swift; sourceTree = "<group>"; };
+		77D651062B70198A00660C67 /* CryptoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailViewController.swift; sourceTree = "<group>"; };
 		77E32B062B58551600469EF7 /* RxSwiftTutorialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftTutorialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E32B092B58551700469EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77E32B0B2B58551700469EF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +112,11 @@
 				77E32B1D2B5858CF00469EF7 /* ProductViewModel.swift */,
 				77E32B2D2B64472800469EF7 /* DetailSixViewController.swift */,
 				77E32B2B2B62EE0E00469EF7 /* SixViewController.swift */,
+				773214D92B6C1A12000BE1C3 /* ParseAPIViewController.swift */,
+				77D650FF2B6E46B700660C67 /* ParseDetailViewController.swift */,
+				77D651012B6E8E2A00660C67 /* TestParseViewController.swift */,
+				77D651032B6FCDF400660C67 /* SecondParsingViewController.swift */,
+				77D651062B70198A00660C67 /* CryptoDetailViewController.swift */,
 			);
 			path = RxSwiftTutorialApp;
 			sourceTree = "<group>";
@@ -230,15 +245,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				77E32B2A2B5DABD700469EF7 /* DetailFivethViewController.swift in Sources */,
+				77D651042B6FCDF400660C67 /* SecondParsingViewController.swift in Sources */,
 				77E32B222B586CD900469EF7 /* SecondViewController.swift in Sources */,
+				773214DA2B6C1A12000BE1C3 /* ParseAPIViewController.swift in Sources */,
 				77E32B2E2B64472800469EF7 /* DetailSixViewController.swift in Sources */,
 				77E32B0E2B58551700469EF7 /* ViewController.swift in Sources */,
 				77E32B0A2B58551700469EF7 /* AppDelegate.swift in Sources */,
 				77E32B2C2B62EE0E00469EF7 /* SixViewController.swift in Sources */,
+				77D651022B6E8E2A00660C67 /* TestParseViewController.swift in Sources */,
 				77E32B242B5AFA9900469EF7 /* ThirdViewController.swift in Sources */,
 				77E32B262B5BDCCB00469EF7 /* FourthViewController.swift in Sources */,
+				77D651072B70198B00660C67 /* CryptoDetailViewController.swift in Sources */,
 				77E32B1E2B5858CF00469EF7 /* ProductViewModel.swift in Sources */,
 				77E32B0C2B58551700469EF7 /* SceneDelegate.swift in Sources */,
+				77D651002B6E46B700660C67 /* ParseDetailViewController.swift in Sources */,
 				77E32B202B58593900469EF7 /* ProductModel.swift in Sources */,
 				77E32B282B5D39D500469EF7 /* FivethViewController.swift in Sources */,
 			);
